@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: orthanc-on-render
+    env: docker
+    plan: free
+    autoDeploy: true
+    ports:
+      - port: 8042
+        protocol: http
+
