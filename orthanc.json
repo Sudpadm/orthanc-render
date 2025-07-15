@@ -2,14 +2,12 @@
   "Name": "Orthanc on Render",
   "StorageDirectory": "/var/lib/orthanc/db",
   "PluginsEnabled": true,
-  {
-  "Plugins" : [
+  "Plugins": [
     "/home/user/orthanc-ohif/Build/libOrthancOHIF.so"
   ],
-  "OHIF" : {
-    "UserConfiguration" : "ohif.js"
-  }
-}
+  "OHIF": {
+    "UserConfiguration": "ohif.js"
+  },
   "RemoteAccessAllowed": true,
   "AuthenticationEnabled": false,
   "DicomWeb": {
