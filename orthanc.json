@@ -1,7 +1,10 @@
 {
   "Name": "Orthanc on Render",
   "StorageDirectory": "/var/lib/orthanc/db",
+  "PluginsEnabled": true,
   "Plugins": ["/usr/share/orthanc/plugins"],
+  "RemoteAccessAllowed": true,
+  "AuthenticationEnabled": false,
   "DicomWeb": {
     "Enable": true,
     "Root": "/dicom-web/"
