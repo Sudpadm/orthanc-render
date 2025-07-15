@@ -1,3 +1,3 @@
-FROM jodogne/orthanc-plugins:1.12.3
-
+FROM osimis/orthanc:22.10.3
 COPY orthanc.json /etc/orthanc/
+
