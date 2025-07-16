@@ -1,4 +1,4 @@
-{
+ {
   "Name": "Orthanc on Render",
   "StorageDirectory": "/var/lib/orthanc/db",
   "PluginsEnabled": true,
