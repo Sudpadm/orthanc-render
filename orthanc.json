@@ -2,9 +2,8 @@
   "Name": "Orthanc on Render",
   "StorageDirectory": "/var/lib/orthanc/db",
   "PluginsEnabled": true,
-  "Plugins": [
-    "/usr/share/orthanc/plugins"
-  ],
+  "Plugins" : [ "/Users/[usernameonmac]/Desktop/OrthancOHIF-mainline.dylib", "/Users/[usernameonmac]/Desktop/OrthancDicomWeb-mainline.dylib" ],
+
   "OHIF": {
     "UserConfiguration": "ohif.js"
   },
