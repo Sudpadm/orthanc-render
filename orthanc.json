@@ -2,18 +2,18 @@
   "Name": "Orthanc on Render",
   "StorageDirectory": "/var/lib/orthanc/db",
   "PluginsEnabled": true,
-  "Plugins": [
-    "/usr/share/orthanc/plugins"
-  ],
-  "OHIF": {
-    "UserConfiguration": "ohif.js"
-  },
   "RemoteAccessAllowed": true,
   "AuthenticationEnabled": false,
+
   "DicomWeb": {
     "Enable": true,
     "Root": "/dicom-web/"
   },
+
+  "OHIF": {
+    "UserConfiguration": "ohif.js"
+  },
+
   "HttpPort": 8042,
   "DicomPort": 4242
 }
